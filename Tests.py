@@ -84,7 +84,8 @@ class TestProgram:
     @allure.story('Проверяем кнопку заказ(нижняя)"')
     def test_order_form_down(self, browser):
         order_form = Main_Page(browser)  # Создаем экземпляр класса order_form.
-        element = browser.find_element(By.XPATH, "//button[@class='Button_Button__ra12g Button_UltraBig__UU3Lp']")  # Кнопка "Заказать" нижняя.
+        element = browser.find_element(By.XPATH, "//button[@class='Button_Button__ra12g Button_UltraBig__UU3Lp']")  #
+        # Кнопка "Заказать" нижняя.
         browser.execute_script("arguments[0].scrollIntoView();", element)  # Здесь пришлось делать скрипт, для того
         # чтобы страница скроллилась вниз, до нашего элемента!
         order_form.click_to_order_down()  # Нажимаем на кнопку заказать.
@@ -92,7 +93,7 @@ class TestProgram:
         fill_form.fill_name()  # Заполняем данным методом имя и фамилию.
         fill_form.fill_address()  # Заполняем данным методом адрес и метро.
         fill_form.fill_phone()  # Заполняем данным методом телефон, нажимаем на кнопку.
-        test = browser.find_element(By.CLASS_NAME, "Order_Header__BZXOb") # Проверяем, что мы перешли в следующее
+        test = browser.find_element(By.CLASS_NAME, "Order_Header__BZXOb")  # Проверяем, что мы перешли в следующее
         # окно (Про Аренду).
         assert test.text == "Про аренду"
 
@@ -106,7 +107,7 @@ class TestProgram:
         check = About_Rent(browser)  # Создаем экземпляр класса check.
         test = browser.find_element(By.CSS_SELECTOR, "div.App_App__15LM- div.Order_Content__bmtHS "
                                                      "div.Order_Modal__YZ-d3 div.Order_NextButton__1_rCA > "
-                                                     "button.Button_Button__ra12g.Button_Middle__1CSJM")# Ищу
+                                                     "button.Button_Button__ra12g.Button_Middle__1CSJM")  # Ищу
         # кнопку, так как текст динамичен, и номер заказа не предугадать.
         assert test.text == "Посмотреть статус"  # Проверяем по тексту с кнопки.
         check.check_status()  # Нажимаем на кнопку "Проверить статус".
