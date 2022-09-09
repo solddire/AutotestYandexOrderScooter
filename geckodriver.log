@@ -1886,3 +1886,339 @@ interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431
 webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
 1662739716461	Marionette	INFO	Stopped listening on port 49613
 [Parent 11308, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1662742764380	geckodriver	INFO	Listening on 127.0.0.1:50119
+1662742767409	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofilevFyrxv"
+1662742767751	Marionette	INFO	Marionette enabled
+1662742767755	Marionette	INFO	Listening on port 50131
+Read port: 50131
+1662742768120	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofilevFyrxv\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+1662742773777	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662742775378	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://storage.mds.yandex.net/get-canvas-html5/1003119/2446393e-acc2-4915-8e55-ed71926da154/index.js, line 18: TypeError: cjs.Sprite is not a constructor
+JavaScript error: https://storage.mds.yandex.net/get-canvas-html5/1003119/2446393e-acc2-4915-8e55-ed71926da154/index.html?link1=https%3A%2F%2Fan.yandex.ru%2Fcount%2FWs0ejI_zO243jHe0b2zfy33Ccffyu0K08GGGW8200J7uS1jZ000003Y4fL9034W2O8mOQ0HmkeVkzRFVclB-0O01aEJg1OW1yAA04P01jepJoTw0W802c06sZDF9Nh01-8_NhmYu0Qo5lwqbm07k0TW1wFdZgG7W0PJ1zfS1w06i0_W1seg4cAm1y0AV_E7o1RW4_m681SH0a0N4GB05j12u1RGGm0N4GCW5j13G1RF0mmAe1i330ia6-63krZBELO6f1-Bwp2Te9YL9i0U0W90ak0UGCf21XWZW28ACLkW91_09s1pu2VW8W0e8oVpTXMhY-W00IecFU47ew0l4GF0B2eWCsehUlW7e39C2c0t0X3tW3OA0aS60W808e0wAqnBu3jk0bwW9ulNZYOFDoP99W13qkfebY13FcFcOZ804q13iZk0Hal740-WHgwcQwClQwO5_y18KY1C2a1Cou1Eq4FWJ2e0K8OWKXlJdaAdupu7F0Q0Kj12e5CH0qAFKc0Re58G2q1NGezIO1l0LmOhsxAEFlFnZe1RmWk6O1gWMw0Um5gC7oHRG5jgAthu1WHUO5-oyZYoe5mcu5mJ05xQM0TWNm8Gzw1S1e1WHi1ZziksO1hWO0T0O8UWO0VWOujgJuBwbyezKW1c96LoV2G000000a1a1e1d0mmAm6VZ1kRUjnlEgWG6u6V___m7I6H9vOM9pNtDbSdPbSYzoDp4vBJFW6G7e6O320_0PWC83WHh__rzO_lHIcvWQywGgi1gxik7iYkZo_Ay1k1e1zHe10000WXjCCJOsCZSqCZStDZOvCZ4mDIqtCZOmCZasDZKnC3CnEJKuCJSoBNPiOJ4jCpKmCIrsR64jR3SjOc5iOMvZPN8jE30uC2r2GKmjEJWrCvWRpuymi1iZk1i2WXmDQJT4Ecj3EJT2LpbZD-aSW1t_VvaTeHqNqNMsoCZcFwWT0iWTYjCIg1u1s1wka1-W7_IwcYMm7mB87_JyyLI080A8806m88201E0W0T0X____0R0Y0Hi0sOG1SGWvViQsb4Ka9Cju-OO2QSYX-155aZzpHZQropg70vmWnhB4GsDchcTcqzYhyBabk9GZiZ-F2K3jJjU_qy0GBRTZUJVZd0qyjMTx1_r1hYTmEFwD46S0~1, line 26: TypeError: AdobeAn.getComposition is not a function
+1662742797184	Marionette	INFO	Stopped listening on port 50131
+[Parent 7880, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 7880, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 7880, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 7880, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 7880, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1662742858923	geckodriver	INFO	Listening on 127.0.0.1:50209
+1662742861957	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofilesKtQtq"
+1662742862289	Marionette	INFO	Marionette enabled
+1662742862293	Marionette	INFO	Listening on port 50222
+Read port: 50222
+1662742862515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofilesKtQtq\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+1662742868003	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662742869608	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662742871108	Marionette	INFO	Stopped listening on port 50222
+1662743016692	geckodriver	INFO	Listening on 127.0.0.1:50335
+1662743019733	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofilenHGC0Q"
+1662743020051	Marionette	INFO	Marionette enabled
+1662743020055	Marionette	INFO	Listening on port 50348
+Read port: 50348
+1662743020164	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofilenHGC0Q\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+1662743024435	Marionette	INFO	Stopped listening on port 50348
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1662743037977	geckodriver	INFO	Listening on 127.0.0.1:50376
+1662743041023	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofileR0oPgG"
+1662743041338	Marionette	INFO	Marionette enabled
+1662743041342	Marionette	INFO	Listening on port 50388
+Read port: 50388
+1662743041458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofileR0oPgG\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+1662743048534	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662743050129	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662743057968	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662743059538	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662743060701	Marionette	INFO	Stopped listening on port 50388
+1662743293168	geckodriver	INFO	Listening on 127.0.0.1:50527
+1662743296201	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofileY1OFJR"
+1662743296524	Marionette	INFO	Marionette enabled
+1662743296528	Marionette	INFO	Listening on port 50540
+Read port: 50540
+1662743296656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofileY1OFJR\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+1662743303243	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662743304824	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://storage.mds.yandex.net/get-canvas-html5/3358133/0cb3620b-a8df-459d-ab44-78d5c2d551a2/gpb_dep9blu_aug22_yndx-mn_1456x180.js, line 18: TypeError: cjs.Sprite is not a constructor
+JavaScript error: https://storage.mds.yandex.net/get-canvas-html5/3358133/0cb3620b-a8df-459d-ab44-78d5c2d551a2/gpb_dep9blu_aug22_yndx-mn_1456x180.html?link1=https%3A%2F%2Fan.yandex.ru%2Fcount%2FWNuejI_zOAK0fGi0D1LIKtakd5eoMWK0fG4GW8200J4ASnjZ000003Y4fL9034W2O8mOQ0HmkeVkzRFVclB-0O01ng-y18W1iiIu3f01wCozjjw0W802c07epBssNh01ieRJhmYu0SpXsFWZm07k0TW1cgkvem7W0Sg6jvS1w0680_W1segmrGxm0gF6tvaCY0MP7P05cHsm1RO7k0Ms1y05cHt81RO7q0Ms1w06mCC2g0R0mmB91WghI5_TDbA8gGUqtIGbiAGbIU07Xf21XWZW2DYg1-W91_09u1Ru2UW2W0e8w0oJ0k0DWe2HmO20W0Y84C-Ddfa6-1CAW1GXw1I40g0My8BXc0R95fWN_OtkAwWN2RWN1C0NjjO1w1W1e1d0mmAm6OhMelhLsusfY06u6Vy1WHh__w_I3ckA8R0QkxBXx8heylol0O8S3L12GZffKLbuQrSvOpUe7W6m7m890C2HaYbYKuR3IcRsPtbdre55HBCPaZrJ9pV-ZH1d~1, line 32: TypeError: AdobeAn.getComposition is not a function
+1662743310527	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662743312115	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662743313265	Marionette	INFO	Stopped listening on port 50540
+1662743574563	geckodriver	INFO	Listening on 127.0.0.1:50736
+1662743577591	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofile6gGLPy"
+1662743577951	Marionette	INFO	Marionette enabled
+1662743577955	Marionette	INFO	Listening on port 50748
+Read port: 50748
+1662743578328	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofile6gGLPy\\search.json.mozlz4", (void 0)))
+1662743583632	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662743585208	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662743586961	Marionette	INFO	Stopped listening on port 50748
+[Parent 8996, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1662743602694	geckodriver	INFO	Listening on 127.0.0.1:50785
+1662743605720	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofilevLpjmM"
+1662743606073	Marionette	INFO	Marionette enabled
+1662743606078	Marionette	INFO	Listening on port 50802
+Read port: 50802
+1662743606428	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofilevLpjmM\\search.json.mozlz4", (void 0)))
+1662743611564	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662743613122	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662743614856	Marionette	INFO	Stopped listening on port 50802
+1662743802304	geckodriver	INFO	Listening on 127.0.0.1:50906
+1662743805341	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofileLkwqDU"
+1662743805664	Marionette	INFO	Marionette enabled
+1662743805668	Marionette	INFO	Listening on port 50918
+Read port: 50918
+1662743805776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofileLkwqDU\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+1662743810936	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662743812529	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662743814272	Marionette	INFO	Stopped listening on port 50918
+[Parent 12752, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1662743865994	geckodriver	INFO	Listening on 127.0.0.1:50953
+1662743869037	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofilei6c0vJ"
+1662743869362	Marionette	INFO	Marionette enabled
+1662743869366	Marionette	INFO	Listening on port 50966
+Read port: 50966
+1662743869473	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofilei6c0vJ\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+1662743874938	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662743876514	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662743878242	Marionette	INFO	Stopped listening on port 50966
+1662744213310	geckodriver	INFO	Listening on 127.0.0.1:51183
+1662744216379	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofiletfpKJV"
+1662744216699	Marionette	INFO	Marionette enabled
+1662744216703	Marionette	INFO	Listening on port 51195
+Read port: 51195
+1662744216815	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofiletfpKJV\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+1662744222454	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662744224019	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662744225755	Marionette	INFO	Stopped listening on port 51195
+1662744236208	geckodriver	INFO	Listening on 127.0.0.1:51228
+1662744239221	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofileGPQEY6"
+1662744239543	Marionette	INFO	Marionette enabled
+1662744239547	Marionette	INFO	Listening on port 51241
+Read port: 51241
+1662744239659	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofileGPQEY6\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 292: NS_ERROR_FAILURE: Should pass a non-null uri
+1662744245315	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662744246897	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://storage.mds.yandex.net/get-canvas-html5/2978047/99cce09d-87ac-45e6-ace8-a2e9b84a4815/1836x572.js, line 17: TypeError: cjs.Sprite is not a constructor
+JavaScript error: https://storage.mds.yandex.net/get-canvas-html5/2978047/99cce09d-87ac-45e6-ace8-a2e9b84a4815/index.html?link1=https%3A%2F%2Fan.yandex.ru%2Fcount%2FWsCejI_zO1u3pHe0f2z0aetTrtIGKGK07WGGW8200J6uTXjZ000003Y4fL9034W2O8mOQ0HmkeVkzRFVclB-0O01W-tG1OW1syVC4901rg3Rkjw0W802c07MeDkwNh01-9ZMhmYu0VxzmPWbm07k0TW1dA-2gG7W0VRamA81w07y0_W1sehcnW7m0fdGcjuFk0J_0OW5yq-G1VDFi0Me5BW5g1J01VDFo0Me5D05g1J0mmAe1i330ia6k3wt_QPaouIf1wa7nR9BXIP9k0UGCf21XWZW2BDZw0a7y0dO7FW9-0Y02WZ9Aj2a8Qa70G1hQqZGGUZe2_DFy0iAY0pQYjw-0UWCamAO3S24FU0DWe2HmO20W0W_e0xxh0Bu3hkpbwW9gO_KaxofePD9W13ErUaaY13FcFcOZ804q13iZgzV-10Iu16IySG3w16hgPheozhfWN_m4XA84mBW4wWK-1CAW1GXY1I6zEUGgVZFWSy1e1Ie5AWKyq_GezIO1kWKX0BG5T2Zr9W6y1N1YlRieu-y_6EW5l22uPW6g1Re1x0MemV95j0MsehUlW615vWNvkYLBgWN2RWN1C0NjfO1s1V0X3te5m6W60Ym6FsoxPW6k1W1q1WXw1W1-1ZYsfFWlgNoZrI06OaPN9y90000002G6G6W6S330h0PkFtSxU-KsUM40RWP____0T8P4dbXOdDVSsLoTcLoBt8tCJajC-0P0UWPWC83y1c0mWE16l__Pr76zmndc1hKmrEm6hkouUoAwFByhm6u6W7r6W4000226r4nDZOoDpGqCZGuD34sE38sBJ4nCJanC3KoDJ0oE3KsE3WrCZKmBNDXSp8jC3auE2qpOZajSs5pBMmtBM9XR65kOsLoBJWmE30jGa5CBJ4tDZIO6zRHBx0RIBWR0u8S3KPvH3fCMazfRLWvOpVf780T_t-P7Q4T5z5rjiZ8vZ-e7GB87Vki0gWU0TWUhf0Ve1_ErUaai1y2o1_Eby5KW202Y201i220W0JW807G8V___m6m8W4S0Dc40N48ORwCTwO4aL0iu-KR2gGXXzz753d-p1dOr0xN70wWpLQ7L7fcbdgz2ajPWYbe8bq4_JWcWB8xNVLE0pwqN8dbtRld3AJsR495QGmEG7_wumaSY7yZX1a0~1, line 32: TypeError: AdobeAn.getComposition is not a function
+1662744256705	Marionette	INFO	Stopped listening on port 51241
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1662744339675	geckodriver	INFO	Listening on 127.0.0.1:51308
+1662744342708	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofileqW9NaT"
+1662744343066	Marionette	INFO	Marionette enabled
+1662744343070	Marionette	INFO	Listening on port 51322
+Read port: 51322
+1662744343431	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofileqW9NaT\\search.json.mozlz4", (void 0)))
+1662744348103	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662744349684	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662744353359	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662744354967	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662744356132	Marionette	INFO	Stopped listening on port 51322
+1662744373291	geckodriver	INFO	Listening on 127.0.0.1:51372
+1662744376334	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofileawCZhw"
+1662744376696	Marionette	INFO	Marionette enabled
+1662744376699	Marionette	INFO	Listening on port 51384
+Read port: 51384
+1662744377089	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofileawCZhw\\search.json.mozlz4", (void 0)))
+1662744382492	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662744384081	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662744387889	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662744389468	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662744390642	Marionette	INFO	Stopped listening on port 51384
+1662744441497	geckodriver	INFO	Listening on 127.0.0.1:51436
+1662744444530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofileAXoNLQ"
+1662744444880	Marionette	INFO	Marionette enabled
+1662744444884	Marionette	INFO	Listening on port 51448
+Read port: 51448
+1662744445228	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofileAXoNLQ\\search.json.mozlz4", (void 0)))
+1662744450955	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662744452546	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662744469794	Marionette	INFO	Stopped listening on port 51448
+JavaScript error: chrome://remote/content/marionette/cert.js, line 57: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[Parent 7788, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1662744496398	geckodriver	INFO	Listening on 127.0.0.1:51498
+1662744499431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofilevPOV7x"
+1662744499785	Marionette	INFO	Marionette enabled
+1662744499789	Marionette	INFO	Listening on port 51510
+Read port: 51510
+1662744500129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\51FB~1\\AppData\\Local\\Temp\\rust_mozprofilevPOV7x\\search.json.mozlz4", (void 0)))
+1662744505411	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662744507004	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662744510711	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662744512303	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1662744513460	Marionette	INFO	Stopped listening on port 51510

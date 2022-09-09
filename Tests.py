@@ -1,5 +1,9 @@
+import time
+
 import allure
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as ec
+from selenium.webdriver.support.ui import WebDriverWait
 
 from PageObject import Main_Page, Form_Order, About_Rent, YandexButton
 
@@ -69,15 +73,16 @@ class TestProgram:
     @allure.story('Проверяем кнопки Яндекса"')
     def test_yandex_buttons(self, browser):
         click = YandexButton(browser)  # Создаем экземпляр класса click.
+        click.click_on_scooter_button()  # Нажимаем на кнопку "Самокаты".
+        url = browser.current_url  # Берем текущий url, чтобы сверить, верно ли все произошло.
+        assert url == 'https://qa-scooter.praktikum-services.ru/'  # Сравниваем url'ы.
         click.click_on_yandex_button()  # Нажимаем на кнопку "Яндекс".
         browser.switch_to_window(browser.window_handles[1])  # Переключаемся на страницу "Яндекса".
+        WebDriverWait(browser, 15).until(ec.url_changes("about:blank"))
         url = browser.current_url  # Берем текущий url, чтобы сверить, верно ли все произошло.
-        assert url == 'https://yandex.ru/'  # Сравниваем url'ы.
         browser.close()  # Закрываем окно "Яндекс".
+        assert url == 'https://yandex.ru/'  # Сравниваем url'ы.
         browser.switch_to_window(browser.window_handles[0])  # Переходим обратно в "основное" окно.
-        url = browser.current_url  # Берем текущий url, чтобы сверить, верно ли все произошло.
-        click.click_on_scooter_button()  # Нажимаем на кнопку "Самокаты".
-        assert url == 'https://qa-scooter.praktikum-services.ru/'  # Сравниваем url'ы.
 
     @allure.title('Проверка кнопки заказа(нижняя)')
     @allure.feature('Check button(down)')
