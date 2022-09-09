@@ -7,6 +7,7 @@ from selenium.webdriver.common.by import By
 class FireFoxLocators:
     LOCATOR_COOKIE_BUTTON = (By.ID, "rcc-confirm-button")
     LOCATOR_TOP_ORDER_BUTTON = (By.CLASS_NAME, "Button_Button__ra12g")
+    LOCATOR_DOWN_ORDER_BUTTON = (By.XPATH, "//button[@class='Button_Button__ra12g Button_UltraBig__UU3Lp']")
     LOCATOR_NAME_FORM = (By.CSS_SELECTOR, "div.App_App__15LM- div.Order_Content__bmtHS div.Order_Form__17u6u div."
                                           "Input_InputContainer__3NykH:nth-child(1) > input.Input_Input__1iN_Z."
                                           "Input_Responsible__1jDKN")
@@ -46,14 +47,21 @@ class FireFoxLocators:
     LOCATOR_CONFIRM_BUTTON = (By.CSS_SELECTOR, "div.App_App__15LM- div.Order_Content__bmtHS div.Order_Modal__YZ-d3 "
                                                "div.Order_Buttons__1xGrp > "
                                                "button.Button_Button__ra12g.Button_Middle__1CSJM:nth-child(2)")
-    LOCATOR_CHECK_STATUS = (By.CLASS_NAME, "//button[contains(text(),'Посмотреть статус')]")
+    LOCATOR_CHECK_STATUS = (By.CSS_SELECTOR, "div.App_App__15LM- div.Order_Content__bmtHS div.Order_Modal__YZ-d3 "
+                                             "div.Order_NextButton__1_rCA > "
+                                             "button.Button_Button__ra12g.Button_Middle__1CSJM")
+    LOCATOR_YANDEX_BUTTON = (By.CLASS_NAME, "Header_LogoYandex__3TSOI")
+    LOCATOR_SCOOTER_BUTTON = (By.CLASS_NAME, "Header_LogoScooter__3lsAR")
 
 
 # Создаем класс Question_Program, наследуемся от BasePage.
 class Main_Page(BasePage):
-    def click_to_order(self):
+    def click_to_order_top(self):
         self.driverwait(FireFoxLocators.LOCATOR_COOKIE_BUTTON).click()
         self.driverwait(FireFoxLocators.LOCATOR_TOP_ORDER_BUTTON).click()
+
+    def click_to_order_down(self):
+        self.driverwait(FireFoxLocators.LOCATOR_DOWN_ORDER_BUTTON).click()
 
     # В данных методах реализуем нажатие на кнопки.
     # P.S. В первом методе больше кликов, потому что кнопка куки мешает для нажатия.
@@ -86,4 +94,14 @@ class About_Rent(BasePage):
         self.driverwait(FireFoxLocators.LOCATOR_COMMENTARY).send_keys('Привести к 18:00.')
         self.driverwait(FireFoxLocators.LOCATOR_ORDER_BUTTON).click()
         self.driverwait(FireFoxLocators.LOCATOR_CONFIRM_BUTTON).click()
+
+    def check_status(self):
         self.driverwait(FireFoxLocators.LOCATOR_CHECK_STATUS).click()
+
+
+class YandexButton(BasePage):
+    def click_on_yandex_button(self):
+        self.driverwait(FireFoxLocators.LOCATOR_YANDEX_BUTTON).click()
+
+    def click_on_scooter_button(self):
+        self.driverwait(FireFoxLocators.LOCATOR_SCOOTER_BUTTON).click()
